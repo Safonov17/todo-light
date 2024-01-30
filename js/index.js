@@ -17,6 +17,7 @@ let editId = null
 let isEditTask = false
 
 updateTasksList() // Самый первый рендер задач
+textareaForm.focus()
 
 // LISTENERS
 form.addEventListener('submit', sendTask)
